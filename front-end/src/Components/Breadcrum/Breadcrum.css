@@ -1,0 +1,28 @@
+.breadcrum {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #5e5e5e;
+    font-size: 1rem;
+    font-weight: 600; /* Removed 'px' — font-weight should be a number or keyword */
+    margin: 4rem 10vw;
+    text-transform: capitalize;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+    .breadcrum {
+        font-size: 0.9rem;
+        margin: 3rem 5vw;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+    .breadcrum {
+        font-size: 0.85rem;
+        margin: 2rem 3vw;
+        gap: 0.4rem;
+    }
+}

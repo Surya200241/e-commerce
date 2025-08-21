@@ -1,0 +1,37 @@
+.descriptionbox {
+    margin: 5vw 8vw;
+}
+
+.descriptionbox-navigator {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.descriptionbox-nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 160px;
+    height: 60px;
+    border: 1px solid #d0d0d0;
+    box-sizing: border-box;
+}
+
+.descriptionbox-nav-box.fade {
+    background: #fbfbfb;
+    color: #555;
+}
+
+.descriptionbox-description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #d0d0d0;
+    padding: 5vw;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+}
